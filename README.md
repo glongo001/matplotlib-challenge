@@ -21,7 +21,7 @@ I analyzed data obtained by the pharmaceutical company Pymaceuticals, Inc. for p
 
     ![alt text](https://github.com/glongo001/matplotlib-challenge/blob/main/Pymaceuticals/Images/bar_pyplot.png)
 
-    - I discovered that more mice were treated with `Capomulin` and `Ramicane`, 230 and 288 respectively, less than 190 mice were treated with all the other treatments.
+    - I discovered that more mice were treated with Capomulin and Ramicane, 230 and 288 respectively, less than 190 mice were treated with all the other treatments.
 
 5. I obtained the number of male and female mice treated and displayed the results in a pie chart. 51% of mice treated were male and 49% of mice treated were female.
     - I created the pie chart with pandas:
@@ -32,15 +32,15 @@ I analyzed data obtained by the pharmaceutical company Pymaceuticals, Inc. for p
 
     ![alt text](https://github.com/glongo001/matplotlib-challenge/blob/main/Pymaceuticals/Images/pie_pyplot.png)
 
-6. I separated the data of the top 4 performing regimens: `Capomulin`, `Ramicane`, `Infubinol` and `Ceftamin`. I used `max()` to obtain data from the maximum timepoint for each mouse and kept the final tumor volume in mm3 for each mouse. I obtained the quartiles (25%, 50%, and 75%) for the final tumor volume and calculated the upper and lower bounds to determine outliers. Only `Infubinol` had an outlier with a final tumor volume of 36.3 mm3. I displayed the final tumor volume for each of these treatments in a boxplot, here Capomulin and Ramicane showed lower final Tumor Volumes than Infubinol and Ceftamin.
+6. I separated the data of the top 4 performing regimens: Capomulin, Ramicane, Infubinol and Ceftamin. I used `max()` to obtain data from the maximum timepoint for each mouse and kept the final tumor volume in mm3 for each mouse. I obtained the quartiles (25%, 50%, and 75%) for the final tumor volume and calculated the upper and lower bounds to determine outliers. Only Infubinol had an outlier with a final tumor volume of 36.3 mm3. I displayed the final tumor volume for each of these treatments in a boxplot, here Capomulin and Ramicane showed lower final Tumor Volumes than Infubinol and Ceftamin.
 
 ![alt text](https://github.com/glongo001/matplotlib-challenge/blob/main/Pymaceuticals/Images/boxplot.png)
 
-7. I displayed the tumor volume of mouse `I509` treated with `Capomulin` over time. The results showed that tumor volume decreased over time.
+7. I displayed the tumor volume of mouse `I509` treated with Capomulin over time. The results showed that tumor volume decreased over time.
 
 ![alt text](https://github.com/glongo001/matplotlib-challenge/blob/main/Pymaceuticals/Images/lineplot.png)
 
-8. I displayed the weight and average tumor volume of mice treated with `Capomulin`.
+8. I displayed the weight and average tumor volume of mice treated with Capomulin.
 
     ![alt text](https://github.com/glongo001/matplotlib-challenge/blob/main/Pymaceuticals/Images/scatterplot.png)
 

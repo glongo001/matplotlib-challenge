@@ -1,5 +1,5 @@
 # Matplotlib-challenge : Pymaceuticals Inc.
-I analized data obtained by the pharmaceutical company Pymaceuticals, Inc. for potential treatments for squamous cell carcinoma (SCC). I analyzed their results treating 249 mice with SCC tumors that received different drug treatments over the course of 45 days. 
+I analyzed data obtained by the pharmaceutical company Pymaceuticals, Inc. for potential treatments for squamous cell carcinoma (SCC). I analyzed their results treating 249 mice with SCC tumors that received different drug treatments over the course of 45 days. 
 
 1. First, I imported the data provided in two csv files, `mouse_metadata.csv` and `study_results.csv`. I stored the data into one pandas dataframe.
 
